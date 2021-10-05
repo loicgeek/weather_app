@@ -1,6 +1,6 @@
-import 'package:weather_app/src/models/coord.dart';
-import 'package:weather_app/src/models/temperature.dart';
-import 'package:weather_app/src/models/weather.dart';
+import 'coord.dart';
+import 'temperature.dart';
+import 'weather.dart';
 
 class City {
   int id;

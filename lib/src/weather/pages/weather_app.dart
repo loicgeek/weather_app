@@ -1,17 +1,18 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:weather_app/src/models/city.dart';
-import 'package:weather_app/src/pages/city_details.dart';
-import 'package:weather_app/src/services/city_service.dart';
+import 'package:weather_app/src/weather/models/city.dart';
+import 'package:weather_app/src/weather/services/city_service.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+import 'city_details.dart';
+
+class WeatherApp extends StatefulWidget {
+  const WeatherApp({Key? key}) : super(key: key);
 
   @override
-  _HomePageState createState() => _HomePageState();
+  _WeatherAppState createState() => _WeatherAppState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _WeatherAppState extends State<WeatherApp> {
   late TextEditingController _searchController;
   late CityService _cityService;
   String? error;

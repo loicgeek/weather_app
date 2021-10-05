@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weather_app/src/models/city.dart';
+import 'package:weather_app/src/weather/models/city.dart';
 
 class CityDetails extends StatefulWidget {
   final City city;

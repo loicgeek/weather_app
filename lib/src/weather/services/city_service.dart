@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:weather_app/src/models/city.dart';
+import 'package:weather_app/src/weather/models/city.dart';
 
 class CityService {
   late Dio _dio;
